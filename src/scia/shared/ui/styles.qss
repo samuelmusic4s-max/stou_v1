@@ -354,6 +354,81 @@ QTimeEdit:focus {
   border-color: var(--primary);
 }
 
+QTimeEdit,
+QDateEdit,
+QDateTimeEdit {
+  min-height: 24px;
+  padding-right: 28px;
+}
+
+QTimeEdit::up-button,
+QDateTimeEdit::up-button,
+QDateEdit::up-button {
+  subcontrol-origin: border;
+  subcontrol-position: top right;
+  width: 24px;
+  border-left: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  border-top-right-radius: 5px;
+  background-color: var(--surface);
+}
+
+QTimeEdit::down-button,
+QDateTimeEdit::down-button,
+QDateEdit::down-button {
+  subcontrol-origin: border;
+  subcontrol-position: bottom right;
+  width: 24px;
+  border-left: 1px solid var(--border);
+  border-bottom-right-radius: 5px;
+  background-color: var(--surface);
+}
+
+QTimeEdit::up-button:hover,
+QTimeEdit::down-button:hover,
+QDateTimeEdit::up-button:hover,
+QDateTimeEdit::down-button:hover,
+QDateEdit::up-button:hover,
+QDateEdit::down-button:hover {
+  background-color: var(--primary_tint);
+}
+
+QTimeEdit::up-arrow,
+QDateTimeEdit::up-arrow,
+QDateEdit::up-arrow {
+  width: 0px;
+  height: 0px;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 5px solid var(--text);
+}
+
+QTimeEdit::down-arrow,
+QDateTimeEdit::down-arrow,
+QDateEdit::down-arrow {
+  width: 0px;
+  height: 0px;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 5px solid var(--text);
+}
+
+QDateEdit::drop-down,
+QDateTimeEdit::drop-down {
+  subcontrol-origin: border;
+  subcontrol-position: top right;
+  width: 26px;
+  border-left: 1px solid var(--border);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: var(--surface);
+}
+
+QDateEdit::drop-down:hover,
+QDateTimeEdit::drop-down:hover {
+  background-color: var(--primary_tint);
+}
+
 QComboBox QAbstractItemView,
 QFontComboBox QAbstractItemView {
   background-color: var(--elevated);

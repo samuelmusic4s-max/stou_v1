@@ -55,16 +55,18 @@ class TaskDialog(QDialog):
     def __init__(self, task: Task | None = None, parent: QWidget | None = None):
         super().__init__(parent)
         self.setWindowTitle("Editar tarea" if task else "Nueva tarea")
-        self.setMinimumWidth(420)
+        self.setMinimumWidth(480)
 
         self.title_input = QLineEdit(task.title if task else "")
         self.title_input.setPlaceholderText("Ej: Repasar apuntes de bases de datos")
+        self.title_input.setMinimumHeight(36)
 
         self.desc_input = QPlainTextEdit(task.description if task else "")
         self.desc_input.setPlaceholderText("Descripción corta (opcional)...")
         self.desc_input.setMaximumHeight(90)
 
         self.status_input = QComboBox()
+        self.status_input.setMinimumHeight(36)
         for status in STATUS_ORDER:
             self.status_input.addItem(STATUS_LABELS[status], status)
         if task:
@@ -74,23 +76,36 @@ class TaskDialog(QDialog):
 
         self.estimated_time_input = QTimeEdit()
         self.estimated_time_input.setDisplayFormat("HH:mm")
+        self.estimated_time_input.setMinimumHeight(38)
+        self.estimated_time_input.setMinimumWidth(130)
         est_mins = max(0, min(23 * 60 + 59, task.estimated_minutes if task else 30))
         self.estimated_time_input.setTime(QTime(est_mins // 60, est_mins % 60))
+
+        est_hint = QLabel("horas : minutos")
+        est_hint.setObjectName("pageSubtitle")
+        est_row = QHBoxLayout()
+        est_row.setContentsMargins(0, 0, 0, 0)
+        est_row.setSpacing(10)
+        est_row.addWidget(self.estimated_time_input)
+        est_row.addWidget(est_hint)
+        est_row.addStretch()
 
         self.due_input = QDateTimeEdit()
         self.due_input.setCalendarPopup(True)
         self.due_input.setDisplayFormat("yyyy-MM-dd HH:mm")
+        self.due_input.setMinimumHeight(36)
         if task:
             self.due_input.setDateTime(QDateTime(task.due_at))
         else:
             self.due_input.setDateTime(QDateTime.currentDateTime().addDays(1))
 
         form = QFormLayout()
-        form.setSpacing(12)
+        form.setFieldGrowthPolicy(QFormLayout.FieldGrowthPolicy.ExpandingFieldsGrow)
+        form.setSpacing(14)
         form.addRow("Título:", self.title_input)
         form.addRow("Descripción:", self.desc_input)
         form.addRow("Estado:", self.status_input)
-        form.addRow("Tiempo estimado (HH:mm):", self.estimated_time_input)
+        form.addRow("Tiempo estimado:", est_row)
         form.addRow("Fecha límite:", self.due_input)
 
         buttons = QDialogButtonBox(
