@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "SC.IA — Curador multi-fuente con IA para desarrolladores"
 readme = "README.md"
 authors = [{ name = "Samuel Botina", email = "samuelmusic4s@gmail.com" }]
-requires-python = "==3.12.14"
+requires-python = ">=3.12,<3.13"
 dependencies = [
   "langchain-text-splitters>=1.2.0",
   "openai>=3.52.0",
