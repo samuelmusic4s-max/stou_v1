@@ -1,0 +1,417 @@
+# Resource object code (Python 3)
+# Created by: object code
+# Created by: The Resource Compiler for Qt version 6.12.0
+# WARNING! All changes made in this file will be lost!
+
+from PySide6 import QtCore
+
+qt_resource_data = b"\
+\x00\x00\x01;\
+<\
+svg\x0a  xmlns=\x22htt\
+p://www.w3.org/2\
+000/svg\x22\x0a  width\
+=\x2224\x22\x0a  height=\x22\
+24\x22\x0a  viewBox=\x220\
+ 0 24 24\x22\x0a  fill\
+=\x22none\x22\x0a  stroke\
+=\x22#f2f2f2\x22\x0a  str\
+oke-width=\x222\x22\x0a  \
+stroke-linecap=\x22\
+round\x22\x0a  stroke-\
+linejoin=\x22round\x22\
+\x0a>\x0a  <path d=\x22M3\
+ 3v16a2 2 0 0 0 \
+2 2h16\x22 />\x0a  <pa\
+th d=\x22M18 17V9\x22 \
+/>\x0a  <path d=\x22M1\
+3 17V5\x22 />\x0a  <pa\
+th d=\x22M8 17v-3\x22 \
+/>\x0a</svg>\x0a\
+\x00\x00\x01!\
+<\
+svg xmlns=\x22http:\
+//www.w3.org/200\
+0/svg\x22 width=\x2224\
+\x22 height=\x2224\x22 vi\
+ewBox=\x220 0 24 24\
+\x22>\x0a  <rect x=\x222\x22\
+ y=\x223\x22 width=\x2220\
+\x22 height=\x2218\x22 rx\
+=\x224\x22 fill=\x22#7a7a\
+7a\x22/>\x0a  <text x=\
+\x2212\x22 y=\x2214.5\x22 te\
+xt-anchor=\x22middl\
+e\x22 font-family=\x22\
+sans-serif\x22 font\
+-size=\x226.5\x22 font\
+-weight=\x22bold\x22 f\
+ill=\x22#ffffff\x22>DO\
+C</text>\x0a</svg>\x0a\
+\
+\x00\x00\x01~\
+<\
+svg\x0a  xmlns=\x22htt\
+p://www.w3.org/2\
+000/svg\x22\x0a  width\
+=\x2224\x22\x0a  height=\x22\
+24\x22\x0a  viewBox=\x220\
+ 0 24 24\x22\x0a  fill\
+=\x22none\x22\x0a  stroke\
+=\x22#f2f2f2\x22\x0a  str\
+oke-width=\x222\x22\x0a  \
+stroke-linecap=\x22\
+round\x22\x0a  stroke-\
+linejoin=\x22round\x22\
+\x0a>\x0a  <path d=\x22M1\
+2 5v16\x22 />\x0a  <pa\
+th d=\x22M20.001 19\
+A2 2 0 0022 17V5\
+a2 2 0 00-1.999-\
+2L16 3.002A5 5 0\
+ 0012 5a5 5 0 00\
+-4-2H4a2 2 0 00-\
+2 2v12a2 2 0 001\
+.999 2H8a5 5 0 0\
+14 2 5 5 0 014-2\
+z\x22 />\x0a</svg>\x0a\
+\x00\x00\x01z\
+<\
+svg\x0a  xmlns=\x22htt\
+p://www.w3.org/2\
+000/svg\x22\x0a  width\
+=\x2224\x22\x0a  height=\x22\
+24\x22\x0a  viewBox=\x220\
+ 0 24 24\x22\x0a  fill\
+=\x22none\x22\x0a  stroke\
+=\x22#f2f2f2\x22\x0a  str\
+oke-width=\x222\x22\x0a  \
+stroke-linecap=\x22\
+round\x22\x0a  stroke-\
+linejoin=\x22round\x22\
+\x0a>\x0a  <path d=\x22M1\
+5 21v-8a1 1 0 0 \
+0-1-1h-4a1 1 0 0\
+ 0-1 1v8\x22 />\x0a  <\
+path d=\x22M3 10a2 \
+2 0 0 1 .709-1.5\
+28l7-6a2 2 0 0 1\
+ 2.582 0l7 6A2 2\
+ 0 0 1 21 10v9a2\
+ 2 0 0 1-2 2H5a2\
+ 2 0 0 1-2-2z\x22 /\
+>\x0a</svg>\x0a\
+\x00\x00\x02E\
+<\
+svg\x0a  xmlns=\x22htt\
+p://www.w3.org/2\
+000/svg\x22\x0a  width\
+=\x2224\x22\x0a  height=\x22\
+24\x22\x0a  viewBox=\x220\
+ 0 24 24\x22\x0a  fill\
+=\x22none\x22\x0a  stroke\
+=\x22#f2f2f2\x22\x0a  str\
+oke-width=\x222\x22\x0a  \
+stroke-linecap=\x22\
+round\x22\x0a  stroke-\
+linejoin=\x22round\x22\
+\x0a>\x0a  <path d=\x22M9\
+.671 4.136a2.34 \
+2.34 0 0 1 4.659\
+ 0 2.34 2.34 0 0\
+ 0 3.319 1.915 2\
+.34 2.34 0 0 1 2\
+.33 4.033 2.34 2\
+.34 0 0 0 0 3.83\
+1 2.34 2.34 0 0 \
+1-2.33 4.033 2.3\
+4 2.34 0 0 0-3.3\
+19 1.915 2.34 2.\
+34 0 0 1-4.659 0\
+ 2.34 2.34 0 0 0\
+-3.32-1.915 2.34\
+ 2.34 0 0 1-2.33\
+-4.033 2.34 2.34\
+ 0 0 0 0-3.831A2\
+.34 2.34 0 0 1 6\
+.35 6.051a2.34 2\
+.34 0 0 0 3.319-\
+1.915\x22 />\x0a  <cir\
+cle cx=\x2212\x22 cy=\x22\
+12\x22 r=\x223\x22 />\x0a</s\
+vg>\x0a\
+\x00\x00\x01\x1f\
+<\
+svg xmlns=\x22http:\
+//www.w3.org/200\
+0/svg\x22 width=\x2224\
+\x22 height=\x2224\x22 vi\
+ewBox=\x220 0 24 24\
+\x22>\x0a  <rect x=\x222\x22\
+ y=\x223\x22 width=\x2220\
+\x22 height=\x2218\x22 rx\
+=\x224\x22 fill=\x22#d94f\
+4f\x22/>\x0a  <text x=\
+\x2212\x22 y=\x2214.5\x22 te\
+xt-anchor=\x22middl\
+e\x22 font-family=\x22\
+sans-serif\x22 font\
+-size=\x227\x22 font-w\
+eight=\x22bold\x22 fil\
+l=\x22#ffffff\x22>PDF<\
+/text>\x0a</svg>\x0a\
+\x00\x00\x01 \
+<\
+svg xmlns=\x22http:\
+//www.w3.org/200\
+0/svg\x22 width=\x2224\
+\x22 height=\x2224\x22 vi\
+ewBox=\x220 0 24 24\
+\x22>\x0a  <rect x=\x222\x22\
+ y=\x223\x22 width=\x2220\
+\x22 height=\x2218\x22 rx\
+=\x224\x22 fill=\x22#4a90\
+e2\x22/>\x0a  <text x=\
+\x2212\x22 y=\x2214.5\x22 te\
+xt-anchor=\x22middl\
+e\x22 font-family=\x22\
+sans-serif\x22 font\
+-size=\x227.5\x22 font\
+-weight=\x22bold\x22 f\
+ill=\x22#ffffff\x22>MD\
+</text>\x0a</svg>\x0a\
+\x00\x00\x01\x1f\
+<\
+svg xmlns=\x22http:\
+//www.w3.org/200\
+0/svg\x22 width=\x2224\
+\x22 height=\x2224\x22 vi\
+ewBox=\x220 0 24 24\
+\x22>\x0a  <rect x=\x222\x22\
+ y=\x223\x22 width=\x2220\
+\x22 height=\x2218\x22 rx\
+=\x224\x22 fill=\x22#48b0\
+77\x22/>\x0a  <text x=\
+\x2212\x22 y=\x2214.5\x22 te\
+xt-anchor=\x22middl\
+e\x22 font-family=\x22\
+sans-serif\x22 font\
+-size=\x227\x22 font-w\
+eight=\x22bold\x22 fil\
+l=\x22#ffffff\x22>TXT<\
+/text>\x0a</svg>\x0a\
+\x00\x00\x02\xfe\
+<\
+svg xmlns=\x22http:\
+//www.w3.org/200\
+0/svg\x22 width=\x2264\
+\x22 height=\x2264\x22 vi\
+ewBox=\x220 0 64 64\
+\x22 fill=\x22none\x22>\x0a \
+ <rect x=\x222\x22 y=\x22\
+2\x22 width=\x2260\x22 he\
+ight=\x2260\x22 rx=\x2214\
+\x22 fill=\x22#191919\x22\
+ stroke=\x22#3a3a3a\
+\x22 stroke-width=\x22\
+2\x22 />\x0a  <!-- Ope\
+n book -->\x0a  <pa\
+th\x0a    d=\x22M32 30\
+c-3.5-2.5-9-3.5-\
+15-3.5a2 2 0 0 0\
+-2 2v17a2 2 0 0 \
+0 2 2c6 0 11.5 1\
+ 15 3.5 3.5-2.5 \
+9-3.5 15-3.5a2 2\
+ 0 0 0 2-2v-17a2\
+ 2 0 0 0-2-2c-6 \
+0-11.5 1-15 3.5Z\
+\x22\x0a    stroke=\x22#f\
+2f2f2\x22\x0a    strok\
+e-width=\x223\x22\x0a    \
+stroke-linecap=\x22\
+round\x22\x0a    strok\
+e-linejoin=\x22roun\
+d\x22\x0a  />\x0a  <path \
+d=\x22M32 30v21\x22 st\
+roke=\x22#f2f2f2\x22 s\
+troke-width=\x223\x22 \
+stroke-linecap=\x22\
+round\x22 />\x0a  <!--\
+ AI sparkle -->\x0a\
+  <path\x0a    d=\x22M\
+32 10l2.1 5.4L39\
+.5 17.5l-5.4 2.1\
+L32 25l-2.1-5.4-\
+5.4-2.1 5.4-2.1L\
+32 10Z\x22\x0a    fill\
+=\x22#ffffff\x22\x0a  />\x0a\
+  <circle cx=\x2243\
+.5\x22 cy=\x2214\x22 r=\x221\
+.8\x22 fill=\x22#a0a0a\
+0\x22 />\x0a</svg>\x0a\
+\x00\x00\x01\x86\
+<\
+svg\x0a  xmlns=\x22htt\
+p://www.w3.org/2\
+000/svg\x22\x0a  width\
+=\x2224\x22\x0a  height=\x22\
+24\x22\x0a  viewBox=\x220\
+ 0 24 24\x22\x0a  fill\
+=\x22none\x22\x0a  stroke\
+=\x22#f2f2f2\x22\x0a  str\
+oke-width=\x222\x22\x0a  \
+stroke-linecap=\x22\
+round\x22\x0a  stroke-\
+linejoin=\x22round\x22\
+\x0a>\x0a  <path d=\x22M2\
+0 20a2 2 0 0 0 2\
+-2V8a2 2 0 0 0-2\
+-2h-7.9a2 2 0 0 \
+1-1.69-.9L9.6 3.\
+9A2 2 0 0 0 7.93\
+ 3H4a2 2 0 0 0-2\
+ 2v13a2 2 0 0 0 \
+2 2Z\x22 />\x0a  <path\
+ d=\x22M12 10v6\x22 />\
+\x0a  <path d=\x22m9 1\
+3 3-3 3 3\x22 />\x0a</\
+svg>\x0a\
+\x00\x00\x01\x11\
+<\
+svg\x0a  xmlns=\x22htt\
+p://www.w3.org/2\
+000/svg\x22\x0a  width\
+=\x2224\x22\x0a  height=\x22\
+24\x22\x0a  viewBox=\x220\
+ 0 24 24\x22\x0a  fill\
+=\x22none\x22\x0a  stroke\
+=\x22#f2f2f2\x22\x0a  str\
+oke-width=\x222\x22\x0a  \
+stroke-linecap=\x22\
+round\x22\x0a  stroke-\
+linejoin=\x22round\x22\
+\x0a>\x0a  <path d=\x22M2\
+ 5h20\x22 />\x0a  <pat\
+h d=\x22M6 12h12\x22 /\
+>\x0a  <path d=\x22M9 \
+19h6\x22 />\x0a</svg>\x0a\
+\
+\x00\x00\x01K\
+<\
+svg\x0a  xmlns=\x22htt\
+p://www.w3.org/2\
+000/svg\x22\x0a  width\
+=\x2224\x22\x0a  height=\x22\
+24\x22\x0a  viewBox=\x220\
+ 0 24 24\x22\x0a  fill\
+=\x22none\x22\x0a  stroke\
+=\x22#f2f2f2\x22\x0a  str\
+oke-width=\x222\x22\x0a  \
+stroke-linecap=\x22\
+round\x22\x0a  stroke-\
+linejoin=\x22round\x22\
+\x0a>\x0a  <path d=\x22M1\
+3 5h8\x22 />\x0a  <pat\
+h d=\x22M13 12h8\x22 /\
+>\x0a  <path d=\x22M13\
+ 19h8\x22 />\x0a  <pat\
+h d=\x22m3 17 2 2 4\
+-4\x22 />\x0a  <path d\
+=\x22m3 7 2 2 4-4\x22 \
+/>\x0a</svg>\x0a\
+"
+
+qt_resource_name = b"\
+\x00\x05\
+\x00o\xa6S\
+\x00i\
+\x00c\x00o\x00n\x00s\
+\x00\x04\
+\x00\x07\x8c\x0a\
+\x00q\
+\x00u\x00i\x00z\
+\x00\x0c\
+\x00$\x9eS\
+\x00f\
+\x00i\x00l\x00e\x00_\x00g\x00e\x00n\x00e\x00r\x00i\x00c\
+\x00\x08\
+\x05\xac94\
+\x00d\
+\x00o\x00c\x00u\x00m\x00e\x00n\x00t\
+\x00\x04\
+\x00\x06\xf65\
+\x00h\
+\x00o\x00m\x00e\
+\x00\x08\
+\x0c\xbb\x0b\xc3\
+\x00s\
+\x00e\x00t\x00t\x00i\x00n\x00g\x00s\
+\x00\x08\
+\x00+k\x06\
+\x00f\
+\x00i\x00l\x00e\x00_\x00p\x00d\x00f\
+\x00\x07\
+\x0d\x02\xb6\xf4\
+\x00f\
+\x00i\x00l\x00e\x00_\x00m\x00d\
+\x00\x08\
+\x00+fT\
+\x00f\
+\x00i\x00l\x00e\x00_\x00t\x00x\x00t\
+\x00\x03\
+\x00\x00hp\
+\x00a\
+\x00p\x00p\
+\x00\x07\
+\x0al\x89#\
+\x00s\
+\x00o\x00u\x00r\x00c\x00e\x00s\
+\x00\x06\
+\x06\xd0:\xc2\
+\x00f\
+\x00i\x00l\x00t\x00e\x00r\
+\x00\x05\
+\x00z\x8a#\
+\x00t\
+\x00a\x00s\x00k\x00s\
+"
+
+qt_resource_struct = b"\
+\x00\x00\x00\x00\x00\x02\x00\x00\x00\x01\x00\x00\x00\x01\
+\x00\x00\x00\x00\x00\x00\x00\x00\
+\x00\x00\x00\x00\x00\x02\x00\x00\x00\x0c\x00\x00\x00\x02\
+\x00\x00\x00\x00\x00\x00\x00\x00\
+\x00\x00\x00\xb6\x00\x00\x00\x00\x00\x01\x00\x00\x0b\x17\
+\x00\x00\x01\xa2\x0e\x22\x9cZ\
+\x00\x00\x00R\x00\x00\x00\x00\x00\x01\x00\x00\x03\xe6\
+\x00\x00\x01\xa2\x0e\x0b\x1e\x1e\
+\x00\x00\x00\x10\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\
+\x00\x00\x01\xa2\x0e\x0b\x1e\x1e\
+\x00\x00\x00\x1e\x00\x00\x00\x00\x00\x01\x00\x00\x01?\
+\x00\x00\x01\xa2\x0eG\x1b\xdd\
+\x00\x00\x00\xa0\x00\x00\x00\x00\x00\x01\x00\x00\x09\xf4\
+\x00\x00\x01\xa2\x0eG\x14\xdb\
+\x00\x00\x00v\x00\x00\x00\x00\x00\x01\x00\x00\x07\xad\
+\x00\x00\x01\xa2\x0eF\xfb'\
+\x00\x00\x00\xe8\x00\x00\x00\x00\x00\x01\x00\x00\x10\xb8\
+\x00\x00\x01\xa2\x0e\x0b\x1e\x1e\
+\x00\x00\x00<\x00\x00\x00\x00\x00\x01\x00\x00\x02d\
+\x00\x00\x01\xa2\x0e\x0b\x1e\x1b\
+\x00\x00\x00\xd6\x00\x00\x00\x00\x00\x01\x00\x00\x0f\xa3\
+\x00\x00\x01\xa2\x0e\x0b\x1e\x1e\
+\x00\x00\x00\xc2\x00\x00\x00\x00\x00\x01\x00\x00\x0e\x19\
+\x00\x00\x01\xa2\x0e\x0b\x1e\x1e\
+\x00\x00\x00`\x00\x00\x00\x00\x00\x01\x00\x00\x05d\
+\x00\x00\x01\xa2\x0e\x0b\x1e\x1e\
+\x00\x00\x00\x8c\x00\x00\x00\x00\x00\x01\x00\x00\x08\xd0\
+\x00\x00\x01\xa2\x0eG\x09\x09\
+"
+
+def qInitResources():
+    QtCore.qRegisterResourceData(0x03, qt_resource_struct, qt_resource_name, qt_resource_data)
+
+def qCleanupResources():
+    QtCore.qUnregisterResourceData(0x03, qt_resource_struct, qt_resource_name, qt_resource_data)
+
+qInitResources()

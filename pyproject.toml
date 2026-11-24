@@ -1,11 +1,12 @@
 [project]
-name = "stou"
+name = "scia"
 version = "0.1.0"
-description = "Curador multi-fuente con IA para desarrolladores"
+description = "SC.IA — Curador multi-fuente con IA para desarrolladores"
 readme = "README.md"
 authors = [{ name = "Samuel Botina", email = "samuelmusic4s@gmail.com" }]
 requires-python = "==3.12.14"
 dependencies = [
+  "langchain-text-splitters>=1.2.0",
   "openai>=3.52.0",
   "pymongo>=4.20.0",
   "pypdf>=7.1.0",
@@ -14,7 +15,7 @@ dependencies = [
 ]
 
 [project.scripts]
-stou = "stou:main"
+scia = "scia:main"
 
 [build-system]
 requires = ["uv_build>=0.12.13,<0.13.0"]

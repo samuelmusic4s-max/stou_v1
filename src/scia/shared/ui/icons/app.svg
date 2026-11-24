@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#191919" stroke="#3a3a3a" stroke-width="2" />
+  <!-- Open book -->
+  <path
+    d="M32 30c-3.5-2.5-9-3.5-15-3.5a2 2 0 0 0-2 2v17a2 2 0 0 0 2 2c6 0 11.5 1 15 3.5 3.5-2.5 9-3.5 15-3.5a2 2 0 0 0 2-2v-17a2 2 0 0 0-2-2c-6 0-11.5 1-15 3.5Z"
+    stroke="#f2f2f2"
+    stroke-width="3"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path d="M32 30v21" stroke="#f2f2f2" stroke-width="3" stroke-linecap="round" />
+  <!-- AI sparkle -->
+  <path
+    d="M32 10l2.1 5.4L39.5 17.5l-5.4 2.1L32 25l-2.1-5.4-5.4-2.1 5.4-2.1L32 10Z"
+    fill="#ffffff"
+  />
+  <circle cx="43.5" cy="14" r="1.8" fill="#a0a0a0" />
+</svg>

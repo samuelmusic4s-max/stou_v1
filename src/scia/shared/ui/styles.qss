@@ -1,0 +1,489 @@
+* {
+  color: var(--text);
+}
+
+QMainWindow,
+QWidget#centralContainer,
+QStackedWidget,
+QDialog {
+  background-color: var(--bg);
+}
+
+QMenuBar,
+QStatusBar {
+  background-color: var(--surface);
+  color: var(--text_muted);
+}
+
+QMenuBar {
+  border-bottom: 1px solid var(--border);
+  padding: 2px 6px;
+}
+
+QMenuBar::item {
+  background: transparent;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: var(--text_secondary);
+}
+
+QMenuBar::item:selected {
+  background-color: var(--elevated);
+  color: var(--text);
+}
+
+QMenu {
+  background-color: var(--elevated);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 4px;
+}
+
+QMenu::item {
+  padding: 6px 20px;
+  border-radius: 4px;
+}
+
+QMenu::item:selected {
+  background-color: var(--primary);
+  color: #ffffff;
+}
+
+QToolBar {
+  background-color: var(--surface);
+  border: none;
+  border-bottom: 1px solid var(--border);
+  spacing: 6px;
+  padding: 4px 10px;
+}
+
+QToolBar QToolButton {
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  padding: 4px 8px;
+  color: var(--text_secondary);
+}
+
+QToolBar QToolButton:hover {
+  background-color: var(--elevated);
+  border-color: var(--border);
+  color: var(--text);
+}
+
+QStatusBar {
+  border-top: 1px solid var(--border);
+}
+
+QStatusBar::item {
+  border: none;
+}
+
+QStatusBar QLabel {
+  color: var(--text_muted);
+  font-size: 13px;
+  padding: 0 8px;
+}
+
+QStatusBar QLabel#statusWarning {
+  color: var(--warning);
+  font-weight: 600;
+}
+
+QStatusBar QLabel#statusSuccess {
+  color: var(--success);
+  font-weight: 600;
+}
+
+QProgressBar {
+  background-color: var(--elevated);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  text-align: center;
+  color: var(--text);
+  min-height: 14px;
+  max-height: 16px;
+}
+
+QProgressBar::chunk {
+  background: qlineargradient(
+    x1: 0, y1: 0, x2: 1, y2: 0,
+    stop: 0 var(--primary),
+    stop: 1 var(--accent)
+  );
+  border-radius: 5px;
+}
+
+QToolBar#sidebar {
+  background-color: var(--surface);
+  border: none;
+  border-right: 1px solid var(--border);
+  padding: 12px 10px;
+  spacing: 6px;
+}
+
+QLabel#sidebarBrand {
+  color: var(--text);
+  background: transparent;
+  font-family: "Georgia", "Liberation Serif", serif;
+  font-size: 21px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding: 6px 10px 14px 10px;
+}
+
+QToolBar#sidebar QToolButton {
+  background-color: transparent;
+  border: none;
+  border-left: 3px solid transparent;
+  border-radius: 6px;
+  padding: 9px 12px;
+  width: 170px;
+  color: var(--text_secondary);
+  font-weight: 500;
+}
+
+QToolBar#sidebar QToolButton:hover {
+  background-color: var(--elevated);
+  color: var(--text);
+}
+
+QToolBar#sidebar QToolButton:focus {
+  background-color: var(--elevated);
+}
+
+QToolBar#sidebar QToolButton:checked {
+  background-color: var(--primary_tint);
+  border-left: 3px solid var(--primary);
+  color: var(--primary_light);
+  font-weight: 600;
+}
+
+QLabel#pageTitle {
+  color: var(--text);
+  background: transparent;
+  font-family: "Georgia", "Liberation Serif", serif;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+QLabel#sectionTitle {
+  color: var(--text_secondary);
+  background: transparent;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+QLabel#pageSubtitle {
+  color: var(--text_secondary);
+  background: transparent;
+  font-size: 14px;
+}
+
+QFrame#quoteCard {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: 6px;
+}
+
+QLabel#quoteText {
+  color: var(--text);
+  background: transparent;
+  font-style: italic;
+  font-size: 14px;
+}
+
+QLabel#quoteAuthor {
+  color: var(--accent);
+  background: transparent;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+QFrame#warningBanner {
+  background-color: rgba(242, 184, 75, 0.08);
+  border: 1px solid rgba(242, 184, 75, 0.35);
+  border-left: 3px solid var(--warning);
+  border-radius: 8px;
+}
+
+QPushButton#warningButton {
+  background-color: rgba(242, 184, 75, 0.16);
+  border: 1px solid var(--warning);
+  color: var(--warning);
+  font-weight: 600;
+  padding: 6px 14px;
+}
+
+QPushButton#warningButton:hover {
+  background-color: var(--warning);
+  color: var(--bg);
+}
+
+QFrame#statCard {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+
+QLabel#statValue {
+  color: var(--text);
+  background: transparent;
+  font-family: "Georgia", "Liberation Serif", serif;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+QLabel#statLabel {
+  color: var(--text_secondary);
+  background: transparent;
+  font-size: 13px;
+}
+
+QFrame#onboardingCard {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+
+QFrame#emptyStateCard {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+
+QLabel#emptyNotice {
+  color: var(--text_secondary);
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 20px;
+}
+
+QFrame#card {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+
+QPushButton {
+  background-color: var(--elevated);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 7px 14px;
+  color: var(--text);
+  font-weight: 500;
+}
+
+QPushButton:hover {
+  background-color: #202a42;
+  border-color: var(--primary_light);
+}
+
+QPushButton:pressed {
+  background-color: var(--surface);
+}
+
+QPushButton#ghostButton {
+  background-color: transparent;
+  border: 1px solid var(--border);
+  color: var(--text_secondary);
+}
+
+QPushButton#ghostButton:hover {
+  background-color: var(--elevated);
+  border-color: var(--primary_light);
+  color: var(--text);
+}
+
+QPushButton#primaryButton {
+  background-color: var(--primary);
+  color: #ffffff;
+  border: 1px solid var(--primary);
+  font-weight: 600;
+}
+
+QPushButton#primaryButton:hover {
+  background-color: var(--primary_hover);
+  border-color: var(--primary_hover);
+}
+
+QPushButton#primaryButton:pressed {
+  background-color: var(--primary_pressed);
+}
+
+QPushButton#dangerButton {
+  background-color: rgba(240, 106, 106, 0.12);
+  border: 1px solid rgba(240, 106, 106, 0.45);
+  color: var(--danger);
+}
+
+QPushButton#dangerButton:hover {
+  background-color: var(--danger);
+  border-color: var(--danger);
+  color: #ffffff;
+}
+
+QLineEdit,
+QPlainTextEdit,
+QTextEdit,
+QComboBox,
+QFontComboBox,
+QDateEdit,
+QDateTimeEdit,
+QTimeEdit {
+  background-color: var(--elevated);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 6px 10px;
+  color: var(--text);
+  selection-background-color: var(--primary);
+  selection-color: #ffffff;
+}
+
+QLineEdit:focus,
+QPlainTextEdit:focus,
+QTextEdit:focus,
+QComboBox:focus,
+QFontComboBox:focus,
+QDateEdit:focus,
+QDateTimeEdit:focus,
+QTimeEdit:focus {
+  border-color: var(--primary);
+}
+
+QComboBox QAbstractItemView,
+QFontComboBox QAbstractItemView {
+  background-color: var(--elevated);
+  border: 1px solid var(--border);
+  selection-background-color: var(--primary);
+  selection-color: #ffffff;
+}
+
+QTableView,
+QTableWidget,
+QTreeView,
+QTreeWidget,
+QListView {
+  background-color: var(--surface);
+  alternate-background-color: var(--elevated);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  gridline-color: var(--border);
+  selection-background-color: var(--primary_tint);
+  selection-color: var(--text);
+}
+
+QHeaderView::section {
+  background-color: var(--surface);
+  color: var(--text_secondary);
+  border: none;
+  border-bottom: 1px solid var(--border);
+  padding: 7px 10px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+QScrollArea {
+  background: transparent;
+  border: none;
+}
+
+QScrollBar:vertical {
+  background: transparent;
+  width: 8px;
+  margin: 2px;
+}
+
+QScrollBar:horizontal {
+  background: transparent;
+  height: 8px;
+  margin: 2px;
+}
+
+QScrollBar::handle:vertical,
+QScrollBar::handle:horizontal {
+  background: var(--border);
+  border-radius: 4px;
+  min-height: 28px;
+  min-width: 28px;
+}
+
+QScrollBar::handle:vertical:hover,
+QScrollBar::handle:horizontal:hover {
+  background: var(--text_muted);
+}
+
+QScrollBar::add-line,
+QScrollBar::sub-line,
+QScrollBar::add-page,
+QScrollBar::sub-page {
+  background: none;
+  height: 0px;
+  width: 0px;
+}
+
+QSplitter::handle {
+  background-color: var(--border);
+}
+
+QSplitter::handle:hover {
+  background-color: var(--primary);
+}
+
+QFrame#promptBox {
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+}
+
+QPlainTextEdit#promptInput,
+QPlainTextEdit#promptInput:focus {
+  background-color: transparent;
+  border: none;
+  padding: 6px;
+  font-size: 14px;
+}
+
+QFrame#userBubble {
+  background-color: var(--elevated);
+  border: 1px solid var(--primary);
+  border-radius: 14px;
+}
+
+QFrame#aiBubble {
+  background-color: transparent;
+  border: none;
+}
+
+QLabel#chatEmptyTitle {
+  color: var(--text);
+  font-family: "Georgia", "Liberation Serif", serif;
+  font-size: 24px;
+  font-weight: bold;
+  background: transparent;
+}
+
+QTabBar::tab {
+  background-color: var(--surface);
+  color: var(--text_secondary);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 8px 18px;
+  margin-right: 8px;
+  font-weight: 500;
+}
+
+QTabBar::tab:hover {
+  background-color: var(--elevated);
+  color: var(--text);
+}
+
+QTabBar::tab:selected {
+  background-color: var(--primary);
+  color: #ffffff;
+  border-color: var(--primary);
+  font-weight: 600;
+}

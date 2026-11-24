@@ -1,0 +1,33 @@
+QTreeView#sourcesTree,
+QTableView#sourcesTable {
+  background-color: var(--surface);
+  alternate-background-color: var(--elevated);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  outline: none;
+}
+
+QTreeView#sourcesTree {
+  padding: 6px;
+}
+
+QTreeView#sourcesTree::item {
+  padding: 5px 6px;
+  border-radius: 5px;
+}
+
+QTableView#sourcesTable::item {
+  padding: 6px 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+QTreeView#sourcesTree::item:hover,
+QTableView#sourcesTable::item:hover {
+  background-color: var(--elevated);
+}
+
+QTreeView#sourcesTree::item:selected,
+QTableView#sourcesTable::item:selected {
+  background-color: var(--primary_tint);
+  color: var(--primary_light);
+}

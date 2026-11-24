@@ -1,0 +1,21 @@
+QTableView#tasksTable {
+  background-color: var(--surface);
+  alternate-background-color: var(--elevated);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  outline: none;
+}
+
+QTableView#tasksTable::item {
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+QTableView#tasksTable::item:hover {
+  background-color: var(--elevated);
+}
+
+QTableView#tasksTable::item:selected {
+  background-color: var(--primary_tint);
+  color: var(--primary_light);
+}

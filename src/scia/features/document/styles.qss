@@ -1,0 +1,29 @@
+QTreeWidget#projectsTree,
+QTreeWidget#dialogTree {
+  background-color: var(--surface);
+  alternate-background-color: var(--elevated);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  outline: none;
+}
+
+QTreeWidget#projectsTree::item {
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--border);
+}
+
+QTreeWidget#dialogTree::item {
+  padding: 7px 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+QTreeWidget#projectsTree::item:hover,
+QTreeWidget#dialogTree::item:hover {
+  background-color: var(--elevated);
+}
+
+QTreeWidget#projectsTree::item:selected,
+QTreeWidget#dialogTree::item:selected {
+  background-color: var(--primary_tint);
+  color: var(--primary_light);
+}

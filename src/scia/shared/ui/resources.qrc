@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="/icons">
+    <file alias="app">icons/app.svg</file>
+    <file alias="home">icons/home.svg</file>
+    <file alias="tasks">icons/tasks.svg</file>
+    <file alias="document">icons/document.svg</file>
+    <file alias="quiz">icons/quiz.svg</file>
+    <file alias="sources">icons/sources.svg</file>
+    <file alias="settings">icons/settings.svg</file>
+    <file alias="filter">icons/filter.svg</file>
+    <file alias="file_pdf">icons/file_pdf.svg</file>
+    <file alias="file_md">icons/file_md.svg</file>
+    <file alias="file_txt">icons/file_txt.svg</file>
+    <file alias="file_generic">icons/file_generic.svg</file>
+  </qresource>
+</RCC>

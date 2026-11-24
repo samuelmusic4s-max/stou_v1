@@ -1,0 +1,29 @@
+QTableWidget#homeTasksTable,
+QListView#homeLessonsList {
+  background-color: var(--surface);
+  alternate-background-color: var(--elevated);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  outline: none;
+}
+
+QTableWidget#homeTasksTable::item {
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+QListView#homeLessonsList::item {
+  padding: 10px 14px;
+  border-bottom: 1px solid var(--border);
+}
+
+QTableWidget#homeTasksTable::item:hover,
+QListView#homeLessonsList::item:hover {
+  background-color: var(--elevated);
+}
+
+QTableWidget#homeTasksTable::item:selected,
+QListView#homeLessonsList::item:selected {
+  background-color: var(--primary_tint);
+  color: var(--primary_light);
+}

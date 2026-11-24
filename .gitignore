@@ -13,7 +13,11 @@ wheels/
 .env
 
 # Proyectos generados
-*.stou.xml
-!examples/*.stou.xml
+*.scia.xml
+!examples/*.scia.xml
 
+# Documentos internos y pruebas locales
 info.md
+tests/
+.pytest_cache/
+*.log
